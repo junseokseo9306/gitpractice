@@ -1,3 +1,5 @@
 package com.example.myapplication
 
-data class hello()
+data class hello(
+    val tryd: String
+)
