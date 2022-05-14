@@ -18,4 +18,9 @@ class fragment : Fragment() {
     ): View? {
         return super.onCreateView(inflater, container, savedInstanceState)
     }
+
+    override fun onDestroy() {
+        val hello = "hello"
+        super.onDestroy()
+    }
 }
