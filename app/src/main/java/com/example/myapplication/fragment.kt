@@ -20,6 +20,7 @@ class fragment : Fragment() {
     }
 
     override fun onDestroy() {
+        val hello = "hello"
         super.onDestroy()
     }
 }
