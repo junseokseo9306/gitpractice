@@ -18,4 +18,8 @@ class fragment : Fragment() {
     ): View? {
         return super.onCreateView(inflater, container, savedInstanceState)
     }
+
+    override fun onDestroy() {
+        super.onDestroy()
+    }
 }
